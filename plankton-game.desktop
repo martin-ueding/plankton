@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Plankton
+GenericName=Plankton Dexterity Game
+Exec=plankton-game
+Icon=plankton-game
+Terminal=false
+Categories=Game;

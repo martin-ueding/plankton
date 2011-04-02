@@ -1,0 +1,13 @@
+Source: planktongame
+Section: games
+Priority: optional
+Maintainer: Martin Ueding <dev@martin-ueding.de>
+Build-Depends: cdbs, debhelper (>= 7.0.50~), default-jdk (>= 1.5)
+Standards-Version: 3.8.4
+Homepage: https://launchpad.net/planktongame
+
+Package: planktongame
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, default-jre (>= 1.5)
+Description: Plankton Dexterity Game
+ You play a lifeform in the sea who eats plankton. By eating you will grow larger. But watch out for the sea mines.
