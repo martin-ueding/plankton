@@ -4,5 +4,5 @@
 .PHONY: planktongame.jar
 planktongame.jar: Plankton.java
 	javac Plankton.java
-	jar cfm planktongame.jar manifest.txt *.class *.java *.properties *.png *.jpg
+	jar cfm $@ manifest.txt *.class *.java *.properties *.png *.jpg
 
